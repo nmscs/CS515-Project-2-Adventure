@@ -60,7 +60,7 @@ class TextAdventure:
             verb = command[0]
             target = command[1] if len(command) > 1 else None
 
-            if verb in self.match_verb(verb):
+            if verb in self.match_verb(''):
                 if verb == 'go':
                     self.go(target)
                 elif verb == 'look':
