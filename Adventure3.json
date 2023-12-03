@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Start Room",
+    "desc": "You find yourself at the beginning of the adventure.",
+    "exits": {
+      "north": 1,
+      "east": 2,
+      "south": 3,
+      "west": 4
+    }
+  },
+  {
+    "name": "North Room",
+    "desc": "You have moved north.",
+    "exits": {
+      "south": 0
+    }
+  },
+  {
+    "name": "East Room",
+    "desc": "You have moved east.",
+    "exits": {
+      "west": 0
+    }
+  },
+  {
+    "name": "South Room",
+    "desc": "You have moved south.",
+    "exits": {
+      "north": 0
+    }
+  },
+  {
+    "name": "West Room",
+    "desc": "You have moved west.",
+    "exits": {
+      "east": 0
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Haunted Mansion",
+    "desc": "You stand before a spooky mansion with creaking doors and eerie lights.",
+    "exits": {
+      "north": 1,
+      "south": 2,
+      "east": 3
+    },
+    "items": [
+      "creepy doll",
+      "old key"
+    ]
+  },
+  {
+    "name": "Dark Corridor",
+    "desc": "A long, dimly lit corridor filled with mysterious shadows.",
+    "exits": {
+      "south": 0
+    },
+    "items": [
+      "flickering candle",
+      "tattered map"
+    ]
+  },
+  {
+    "name": "Forgotten Cemetery",
+    "desc": "An ancient cemetery with moss-covered tombstones and a chilling silence.",
+    "exits": {
+      "north": 0,
+      "west": 4
+    },
+    "items": [
+      "graveyard soil",
+      "broken lantern"
+    ]
+  },
+  {
+    "name": "Gloomy Library",
+    "desc": "A library shrouded in darkness, with dusty shelves and whispering books.",
+    "exits": {
+      "west": 0
+    },
+    "items": [
+      "enchanted quill",
+      "spellbook"
+    ]
+  },
+  {
+    "name": "Mysterious Altar",
+    "desc": "A hidden altar surrounded by mystical symbols and an otherworldly energy.",
+    "exits": {
+      "east": 2
+    },
+    "items": [
+      "crimson candle",
+      "ancient talisman"
+    ]
+  }
+]

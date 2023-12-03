@@ -1,0 +1,121 @@
+[
+  {
+    "name": "A white room",
+    "desc": "You are in a simple room with white walls.",
+    "exits": {
+      "north": 1,
+      "northwest": 2
+    }
+  },
+  {
+    "name": "A blue room",
+    "desc": "This room is simple, too, but with blue walls.",
+    "exits": {
+      "west": 2,
+      "south": 0
+    }
+  },
+  {
+    "name": "A green room",
+    "desc": "You are in a simple room, with bright green walls.",
+    "exits": {
+      "east": 1,
+      "southeast": 0
+    },
+    "items": [
+      "banana",
+      "bandana",
+      "bellows",
+      "deck of cards"
+    ]
+  },
+  {
+    "name": "Mysterious Chamber",
+    "desc": "You enter a mysterious chamber with ancient symbols on the walls.",
+    "exits": {
+      "north": 3,
+      "west": 1
+    },
+    "items": [
+      "key",
+      "scroll",
+      "torch"
+    ]
+  },
+  {
+    "name": "Enchanted Library",
+    "desc": "A library filled with magical books and dusty shelves.",
+    "exits": {
+      "south": 2,
+      "west": 5
+    },
+    "items": [
+      "spellbook",
+      "quill",
+      "potion"
+    ]
+  },
+  {
+    "name": "Hidden Garden",
+    "desc": "A hidden garden with colorful flowers and a serene pond.",
+    "exits": {
+      "east": 4,
+      "south": 7
+    },
+    "items": [
+      "rose",
+      "watering can",
+      "sun hat"
+    ]
+  },
+  {
+    "name": "Cursed Crypt",
+    "desc": "You step into a crypt with eerie whispers in the air.",
+    "exits": {
+      "north": 6,
+      "east": 4
+    },
+    "items": [
+      "skull",
+      "candle",
+      "ghostly amulet"
+    ]
+  },
+  {
+    "name": "Treasure Vault",
+    "desc": "A vault filled with glittering treasures and ancient artifacts.",
+    "exits": {
+      "north": 5,
+      "west": 8
+    },
+    "items": [
+      "diamonds",
+      "golden crown",
+      "ancient map"
+    ]
+  },
+  {
+    "name": "Dragon's Lair",
+    "desc": "You cautiously enter a cavern with a sleeping dragon guarding its hoard.",
+    "exits": {
+      "east": 7,
+      "south": 9
+    },
+    "items": [
+      "dragon scale",
+      "dragon egg",
+      "sword of legends"
+    ]
+  },
+  {
+    "name": "Final Showdown",
+    "desc": "You stand before the ultimate challenge, a powerful sorcerer awaits.",
+    "exits": {
+      "north": 8
+    },
+    "items": [
+      "crystal orb",
+      "elixir of power"
+    ]
+  }
+]

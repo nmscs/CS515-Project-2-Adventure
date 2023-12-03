@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Cozy Cottage",
+    "desc": "You enter a cozy cottage with a warm fireplace.",
+    "exits": {
+      "north": 1,
+      "east": 2,
+      "west": 3
+    },
+    "items": [
+      "blanket",
+      "wooden staff"
+    ]
+  },
+  {
+    "name": "Enchanted Forest",
+    "desc": "A magical forest filled with sparkling lights and mystical creatures.",
+    "exits": {
+      "south": 0,
+      "east": 4
+    },
+    "items": [
+      "elf potion",
+      "fairy dust"
+    ]
+  },
+  {
+    "name": "Secret Cave",
+    "desc": "A hidden cave with glittering crystals and a mysterious aura.",
+    "exits": {
+      "west": 0
+    },
+    "items": [
+      "crystal shard",
+      "ancient scroll"
+    ]
+  },
+  {
+    "name": "Mystic Riverbank",
+    "desc": "A serene riverbank with glowing water and calming whispers in the air.",
+    "exits": {
+      "east": 0,
+      "south": 5
+    },
+    "items": [
+      "water lily",
+      "river pebble"
+    ]
+  },
+  {
+    "name": "Dragon's Lair",
+    "desc": "A cave with the majestic presence of a slumbering dragon.",
+    "exits": {
+      "west": 1
+    },
+    "items": [
+      "dragon scale",
+      "treasure chest"
+    ]
+  },
+  {
+    "name": "Whimsical Meadow",
+    "desc": "A colorful meadow with dancing flowers and playful creatures.",
+    "exits": {
+      "north": 3
+    },
+    "items": [
+      "rainbow feather",
+      "sunshine potion"
+    ]
+  }
+]

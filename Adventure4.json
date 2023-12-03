@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Abandoned House",
+    "desc": "You find yourself in a spooky abandoned house.",
+    "exits": {
+      "north": 1,
+      "east": 2,
+      "south": 3
+    },
+    "items": [
+      "old key",
+      "candle"
+    ]
+  },
+  {
+    "name": "Dusty Library",
+    "desc": "Books line the shelves of a dusty old library.",
+    "exits": {
+      "south": 0
+    },
+    "items": [
+      "ancient tome",
+      "reading glasses"
+    ]
+  },
+  {
+    "name": "Creepy Basement",
+    "desc": "A narrow staircase leads down to a creepy basement.",
+    "exits": {
+      "west": 0
+    },
+    "items": [
+      "spiderweb",
+      "lantern"
+    ]
+  },
+  {
+    "name": "Overgrown Garden",
+    "desc": "An overgrown garden with twisted plants surrounds the house.",
+    "exits": {
+      "north": 0,
+      "east": 4
+    },
+    "items": [
+      "strange flower",
+      "gardening gloves"
+    ]
+  },
+  {
+    "name": "Mysterious Altar",
+    "desc": "A mysterious altar stands in the center of a clearing.",
+    "exits": {
+      "west": 3
+    },
+    "items": [
+      "enchanted amulet"
+    ]
+  }
+]
