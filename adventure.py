@@ -163,7 +163,7 @@ class TextAdventure:
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 p22.py p2.json")
+        print("Usage: python3 adventure.py Adventure.json")
         sys.exit(1)
 
     game = TextAdventure(sys.argv[1])
