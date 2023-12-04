@@ -29,9 +29,6 @@ class TextAdventure:
         self.inventory = game_state['inventory']
         self.health = game_state.get('health', 100)
 
-    def show_status(self):
-        print(f"Health: {self.health}%")
-
     def handle_random_event(self):
         room = self.rooms[self.current_room]
         if 'events' in room:
@@ -48,7 +45,6 @@ class TextAdventure:
 
     def play(self):
         while True:
-            self.show_status()
             self.show_room(self.current_room)
             self.handle_random_event()
             command = input("What would you like to do? ").strip().lower().split()
